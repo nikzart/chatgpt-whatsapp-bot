@@ -24,8 +24,8 @@ client.on("ready", () => {
 (async () => {
   const { ChatGPTAPI, getOpenAIAuth } = await import('chatgpt');
 const openAIAuth = await getOpenAIAuth({
-      email: ,
-      password:  
+      email:"nikzart.console@gmail.com" ,
+      password: "zeolite80"
 });
 const api = new ChatGPTAPI({ ...openAIAuth });
 
